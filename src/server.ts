@@ -6,8 +6,10 @@ app.get('/hello', () => {
   return 'Hello Node'
 })
 
-app.listen({
-  port: 3335,
-}).then(() => {
-  console.log('HTTP Server Running!')
-})
+app
+  .listen({
+    port: 3335,
+  })
+  .then(() => {
+    console.log('HTTP Server Running!')
+  })
