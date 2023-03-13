@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/Joaoof/API-RESTful#readme",
   "devDependencies": {
+    "@types/node": "^18.15.1",
+    "tsx": "^3.12.5",
     "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "fastify": "^4.14.1"
   }
 }
